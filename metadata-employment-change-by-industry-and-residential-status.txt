@@ -1,0 +1,76 @@
+# Metadata for Employment Change By Industry And Residential Status, Annual (December to December)
+---
+Identifier: 'c9d3e28b-1f94-4ea5-bd52-3d4f56e5ace4'
+Name: 'employment-change-by-industry-and-residential-status'
+Title: 'Employment Change By Industry And Residential Status, Annual (December to
+  December)'
+Description:
+  - 'Source: Administrative Records and Labour Force Survey, Manpower Research & Statistics
+    Department, MOM'
+  - ''
+  - 'Notes:'
+  - '1. Data are primarily from administrative records, with the self-employed component
+    estimated from the Labour Force Survey.'
+  - '2. Change in employment is the difference in the employment level at the end
+    of the reference period compared with the end of the preceding period.'
+Topics:
+  - 'Economy'
+Keywords:
+  - 'employment'
+Publisher:
+  Name: 'Ministry of Manpower'
+  Admin 1:
+    Name: 'Eileen Ng'
+    Department: 'Manpower Research and Statistics Department'
+    Email: 'eileen_ng@mom.gov.sg'
+Sources:
+  - 'Ministry of Manpower'
+Source Url: 'http://stats.mom.gov.sg/Pages/EmploymentTimeSeries.aspx'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1991-01-01 to 2018-12-31'
+Last Updated: '2019-03-14T10:14:03.865871'
+Resources:
+  -
+    Identifier: 'd1a1f44e-55b9-4b2e-849c-760affa0ff6e'
+    Title: 'Employment Change By Industry And Residential Status, Annual (December
+      to December)'
+    Url: 'https://storage.data.gov.sg/employment-change-by-industry-and-residential-status/resources/employment-change-by-industry-and-residential-status-annual-december-to-december-2019-03-14T10-14-03Z.csv'
+    Format: 'CSV'
+    Coverage: '1991-01-01 to 2018-12-31'
+    Description:
+      - 'Source: Administrative Records and Labour Force Survey, Manpower Research
+        & Statistics Department, MOM'
+      - ''
+      - 'Notes:'
+      - ''
+      - '1. Data are primarily from administrative records, with the self-employed
+        component estimated from the Labour Force Survey.'
+      - ''
+      - '2. Change in employment is the difference in the employment level at the
+        end of the reference period compared with the end of the preceding period.'
+    Last Updated: '2019-03-14T10:14:03.536994'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'res_stat'
+        Title: 'Residential Status'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'industry1'
+        Title: 'Industry1'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'employment_change'
+        Title: 'Employment Change'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'In Thousands'
+        Description: '"-" : Data is negligible or not significant'
